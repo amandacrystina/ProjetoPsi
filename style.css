@@ -158,11 +158,22 @@ button:hover {
 }
 
 
+.pdf-mode {
+    width: 794px !important;
+    max-width: 794px !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 20px 40px !important;
+    margin: 0 !important;
+    background-color: #FFFFFF !important;
+}
+
 .pdf-mode textarea {
-    border: none;
-    resize: none;
-    background-color: transparent;
-    padding: 0;
+    border: none !important;
+    resize: none !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    overflow: hidden !important; 
 }
 
 
