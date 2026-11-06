@@ -34,7 +34,7 @@ document.getElementById('gerar-pdf-btn').addEventListener('click', () => {
 
     html2pdf().set(opcoes).from(elemento).save().then(() => {
         elemento.classList.remove('pdf-mode');
-        botao.innerText = 'Salvar Respostas em PDF';
+        botao.innerText = 'Salvar como PDF';
         botao.disabled = false;
     });
 });
