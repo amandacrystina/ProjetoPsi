@@ -10,60 +10,34 @@
 <body>
     <div id="pdf-content" class="container">
         <header>
-            <h1>Análise de Pensamentos</h1>
+            <h1>🧠 Análise de Pensamentos</h1>
             <h2>Ferramenta de Reestruturação Cognitiva</h2>
-            <p>Nossos pensamentos negativos muitas vezes carregam uma parcela de realidade, porém antes de permitir que um pensamento interfira no seu bem-estar emocional e na qualidade do seu dia, experimente investigar os fundamentos dessa ideia e avaliar sua validade real.[cite: 1]</p>
+            <p>Nossos pensamentos negativos muitas vezes carregam uma parcela de realidade, porém antes de permitir que um pensamento interfira no seu bem-estar emocional e na qualidade do seu dia, experimente investigar os fundamentos dessa ideia e avaliar sua validade real.</p>
         </header>
 
         <form id="therapy-form">
-            <div class="input-group">
-                <label for="pensamento">Pensamento Inicial:</label>
-                <textarea id="pensamento" rows="3" placeholder="Escreva o pensamento inicial aqui..."></textarea>
+            <div class="input-group highlight-neutral">
+                <label for="pensamento">💭 Pensamento Inicial:</label>
+                <textarea id="pensamento" rows="1" placeholder="Escreva o pensamento inicial aqui..."></textarea>
             </div>
 
-            <div class="input-group">
-                <label for="contradizem">Quais fatos contradizem essa ideia?[cite: 1]</label>
-                <textarea id="contradizem" rows="3"></textarea>
+            <div class="input-group highlight-red">
+                <label for="contradizem">⚖️ Quais fatos contradizem essa ideia?</label>
+                <textarea id="contradizem" rows="1"></textarea>
             </div>
 
-            <div class="input-group">
-                <label for="sustentam">Quais fatos sustentam essa ideia?[cite: 1]</label>
-                <textarea id="sustentam" rows="3"></textarea>
+            <div class="input-group highlight-green">
+                <label for="sustentam">⚖️ Quais fatos sustentam essa ideia?</label>
+                <textarea id="sustentam" rows="1"></textarea>
             </div>
 
-            <div class="radio-group">
-                <p>Esse pensamento possui fundamento real? Há provas que o sustentem?[cite: 1]</p>
+            <div class="radio-group highlight-blue">
+                <p>🔍 Esse pensamento possui fundamento real? Há provas que o sustentem?</p>
                 <label><input type="radio" name="fundamento" value="Sim"> Sim</label>
                 <label><input type="radio" name="fundamento" value="Não"> Não</label>
             </div>
 
-            <div class="radio-group">
-                <p>Há possibilidade de tomar medidas práticas sobre isso?[cite: 1]</p>
+            <div class="radio-group highlight-blue">
+                <p>🛠️ Há possibilidade de tomar medidas práticas sobre isso?</p>
                 <label><input type="radio" name="medidas" value="Sim"> Sim</label>
                 <label><input type="radio" name="medidas" value="Não"> Não</label>
-            </div>
-
-            <div class="psychoeducation-box">
-                <h3>Aceitação Plena</h3>
-                <p>Na perspectiva da terapia dialética comportamental, aceitar plenamente representa reconhecer e acolher aquilo que está além do nosso controle. Desafios, sofrimento e adversidades são elementos naturais da existência humana, e resistir a eles apenas intensifica o mal-estar vivenciado.[cite: 1]</p>
-            </div>
-
-            <div class="input-group">
-                <label for="perspectiva">Qual perspectiva mais saudável você pode adotar sobre isso?[cite: 1]</label>
-                <textarea id="perspectiva" rows="3"></textarea>
-            </div>
-
-            <div class="input-group">
-                <label for="amiga">Se uma amiga vivesse a mesma situação, o que você diria a ela?[cite: 1]</label>
-                <textarea id="amiga" rows="3"></textarea>
-            </div>
-        </form>
-    </div>
-
-    <div class="actions">
-        <button id="gerar-pdf-btn">Salvar Respostas em PDF</button>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
